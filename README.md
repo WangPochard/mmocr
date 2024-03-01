@@ -1,5 +1,7 @@
 # mmocr
 Fine Tuning MMOCR
+[MMOCR](https://github.com/open-mmlab/mmocr)
+---
 
 ### Linux 環境建置
 1. Pytorch
