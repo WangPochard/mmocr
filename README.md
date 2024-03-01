@@ -1,0 +1,2 @@
+# mmocr
+Fine Tuning MMOCR
