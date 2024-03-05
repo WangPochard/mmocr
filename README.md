@@ -56,9 +56,9 @@ Fine Tuning [MMOCR](https://github.com/open-mmlab/mmocr)
         ```python
         (dir to detext_converter.py path)
         python detext_converter.py path/to/.../icdar/ --nproc 4
-        ~~python tools/dataset_converters/prepare_dataset.py icdar2015 --task textdet~~
-        ~~python tools/dataset_converters/prepare_dataset.py totaltext --task textdet~~
-        ~~python tools/dataset_converters/prepare_dataset.py ctw1500 --task textdet~~
+        ~~ python tools/dataset_converters/prepare_dataset.py icdar2015 --task textdet ~~
+        ~~ python tools/dataset_converters/prepare_dataset.py totaltext --task textdet ~~
+        ~~ python tools/dataset_converters/prepare_dataset.py ctw1500 --task textdet ~~
         ```
         
     2. training
