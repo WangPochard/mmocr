@@ -14,7 +14,7 @@ Fine Tuning [MMOCR](https://github.com/open-mmlab/mmocr)
     sudo apt-get install libgl1-mesa-glx
     ```
     
-3. cudnn 安裝  [安裝](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661/26)
+3. cudnn 安裝  [source](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661/26)
     
     ```python
     pip install nvidia-cublas-cu11 nvidia-cudnn-cu11
