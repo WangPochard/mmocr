@@ -14,7 +14,7 @@ Fine Tuning [MMOCR](https://github.com/open-mmlab/mmocr)
     sudo apt-get install libgl1-mesa-glx
     ```
     
-3. cudnn 安裝  [https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661/26](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661/26)
+3. cudnn 安裝  [source](https://discuss.pytorch.org/t/libcudnn-cnn-infer-so-8-library-can-not-found/164661/26)
     
     ```python
     pip install nvidia-cublas-cu11 nvidia-cudnn-cu11
@@ -54,11 +54,13 @@ Fine Tuning [MMOCR](https://github.com/open-mmlab/mmocr)
     1. data prepreation icdar2015
         
         ```python
-        python tools/dataset_converters/prepare_dataset.py icdar2015 --task textdet
-        python tools/dataset_converters/prepare_dataset.py totaltext --task textdet
-        python tools/dataset_converters/prepare_dataset.py ctw1500 --task textdet
-        ```
+        (dir to detext_converter.py path)
+        python detext_converter.py path/to/.../icdar/ --nproc 4
         
+        ```
+        ~~python tools/dataset_converters/prepare_dataset.py icdar2015 --task textdet~~
+        ~~python tools/dataset_converters/prepare_dataset.py totaltext --task textdet~~
+        ~~python tools/dataset_converters/prepare_dataset.py ctw1500 --task textdet~~ 
     2. training
         
         ```python
