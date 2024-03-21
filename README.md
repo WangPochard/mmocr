@@ -1,5 +1,6 @@
 # mmocr
 Fine Tuning [MMOCR](https://github.com/open-mmlab/mmocr)
+mmocr-rec使用AbiNet Union14m 在[MMOCR](https://github.com/open-mmlab/mmocr) 中能找到該模型檔
 ---
 
 ### Linux 環境建置
