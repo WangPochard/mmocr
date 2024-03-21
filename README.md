@@ -72,3 +72,11 @@ mmocr-rec使用AbiNet Union14m 在[MMOCR](https://github.com/open-mmlab/mmocr) �
         
         tools/dist_train.sh configs/textdet/dbnet/dbnet_r50dcnv2_fpnc_1200e_icdar2015.py 8
         ```
+
+---
+
+### training step 設定檔
+1. configs
+    > training step 內容有做修改，一般的顯卡會有OOM (Out of Memory) 的問題，恐需另外租用雲的gpu來做訓練，因其開源的資料集有點龐大(有做資料增強)。
+2. tools
+    > 其內容也有小許修改，檔名 & 預設路徑等問題的修正而已。
